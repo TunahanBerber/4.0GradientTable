@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.0My Task</title>
+    <style>
+        button {
+            background: none;
+            text-decoration: inherit;
+            font-family: system-ui;
+            font-size: 30px;
+            padding: 60px;
+        }
+
+        .border-gradient {
+            border: 10px solid;
+            border-image-slice: 1;
+            border-width: 5px;
+        }
+
+        .border-gradient-color {
+            border-image-source: linear-gradient(to left, orange, purple);
+        }
+
+
+
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >div {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <div class="on-dark">
+            <button class="border-gradient border-gradient-color">
+                I have a gradient
+            </button>
+        </div>
+
+        <div class="on-dark">
+            <button class="border-gradient border-gradient-color">
+                I have a gradient
+            </button>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
